@@ -1,4 +1,4 @@
-def function(string: str, number: int) -> int:
+def count_a_chars_in_repeated_string(string: str, number: int) -> int:
     number_repeats = len(string) // number
     number_remaining = len(string) % number
     repeated_string: str = ""
