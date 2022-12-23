@@ -50,8 +50,7 @@ class Main:
 
 if __name__ == "__main__":
 
-    # string, number = InputManager.get_and_convert_input_data()
-    string, number = "aba", 10
+    string, number = InputManager.get_and_convert_input_data()
     number_occurances_a_character = Main.count_a_chars_in_repeated_string(
         string=string, number=number)
     print(f"For input string: {string} and number: {number}, "
